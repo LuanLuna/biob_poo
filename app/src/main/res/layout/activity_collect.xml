@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.CollectActivity"
+    android:background="@color/bg_hunter">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/header_hunter"
+        android:minHeight="80dp"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Coletar"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:id="@+id/title"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/count"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="82dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:maxWidth="100dp"
+            android:maxHeight="120dp"
+            android:minHeight="120dp"
+            android:id="@+id/image1"
+            android:layout_below="@+id/count"
+            android:layout_alignLeft="@+id/count"
+            android:layout_alignStart="@+id/count" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:maxWidth="100dp"
+            android:maxHeight="120dp"
+            android:minHeight="120dp"
+            android:id="@+id/image2"
+            android:layout_below="@+id/count"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:maxWidth="100dp"
+            android:maxHeight="120dp"
+            android:minHeight="120dp"
+            android:id="@+id/image3"
+            android:layout_alignTop="@+id/image2"
+            android:layout_alignRight="@+id/count"
+            android:layout_alignEnd="@+id/count" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:maxWidth="100dp"
+            android:maxHeight="120dp"
+            android:minHeight="120dp"
+            android:id="@+id/image4"
+            android:layout_below="@+id/image1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:maxWidth="100dp"
+            android:maxHeight="120dp"
+            android:minHeight="120dp"
+            android:id="@+id/image5"
+            android:layout_below="@+id/image2"
+            android:layout_alignLeft="@+id/image2"
+            android:layout_alignStart="@+id/image2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:maxWidth="100dp"
+            android:maxHeight="120dp"
+            android:minHeight="120dp"
+            android:id="@+id/image6"
+            android:layout_below="@+id/image3"
+            android:layout_alignLeft="@+id/image3"
+            android:layout_alignStart="@+id/image3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:maxWidth="100dp"
+            android:maxHeight="120dp"
+            android:minHeight="120dp"
+            android:id="@+id/image7"
+            android:layout_below="@+id/image4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:maxWidth="100dp"
+            android:maxHeight="120dp"
+            android:minHeight="120dp"
+            android:id="@+id/image8"
+            android:layout_alignTop="@+id/image7"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:maxWidth="100dp"
+            android:maxHeight="120dp"
+            android:minHeight="120dp"
+            android:id="@+id/image9"
+            android:layout_below="@+id/image5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronometer"
+            android:layout_below="@+id/image7"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
